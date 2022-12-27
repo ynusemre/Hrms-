@@ -1,39 +1,31 @@
-# Hrms-
+# Hrms- Recruitment System
 
-ÖNEMLİ 1 : Doğrulama işlemleri için sahte servisler oluşturunuz. Örneğin, gerçekten mail göndermeniz gerekmez.
+IMPORTANT 1: Create fake services for authentication. For example, you don't really need to send mail.
 
-ÖNEMLİ 2 : Gereksinimler dışında kodlama yapmayınız. Bu, Proje yönetimi ve ALM (Application LifeCycle Management) kurallarına aykırı bir yazılım geliştirici davranışıdır.
+IMPORTANT 2: Do not code outside of the requirements. This is software developer behavior against Project management and ALM (Application LifeCycle Management) rules.
 
+Req 1: Job Seekers should be able to register in the system.
 
+Accept conditions:
 
-Req 1 : İş Arayanlar sisteme kayıt olabilmelidir.
+-> During registration, the user is asked for name, surname, tcno, year of birth, e-mail, password, password repetition information.
+-> All fields are required. The user is informed.
+-> Mernis verification is done and the system is registered. -> The user is notified if the validation is not valid. -> If there is a previously registered e-mail or tcno, the registration will not take place. The user is informed. -> Email verification is required for registration to take place.
 
-Kabul Kriterleri:
+Req 2: Employers should be able to register in the system.
 
--> Kayıt sırasında kullanıcıdan ad, soyad, tcno, doğum yılı, e-Posta, şifre, şifre tekrarı bilgileri istenir.
--> Tüm alanlar zorunludur. Kullanıcı bilgilendirilir.
--> Mernis doğrulaması yapılarak sisteme kayıt gerçekleştirilir.
--> Doğrulama geçerli değilse kullanıcı bilgilendirilir.
--> Daha önce kayıtlı bir e-posta veya tcno var ise kayıt gerçekleşmez. Kullanıcı bilgilendirilir.
--> Kayıdın gerçekleşmesi için e-posta doğrulaması gerekir.
+Accept conditions:
 
-Req 2 : İş verenler sisteme kayıt olabilmelidir.
+-> During registration, the user is asked for company name, website, e-mail with the same domain as the website, phone, password, password repetition information. The purpose here is to prevent non-companies from joining the system. -> All fields are required. The user is informed. -> Company records are verified in two ways. Email verification is required for registration to occur. Approval from HRMS staff (our :)) is required. -> If there is a previously registered e-mail, the registration will not take place. The user is informed.
 
-Kabul Kriterleri:
+Req 3 : General job position names should be added to the system. For example Software Developer, Software Architect.
 
--> Kayıt sırasında kullanıcıdan şirket adı, web sitesi, web sitesi ile aynı domaine sahip e-posta, telefon, şifre, şifre tekrarı bilgileri istenir. Burada amaç sisteme şirket olmayanların katılmasını engellemektir.
--> Tüm alanlar zorunludur. Kullanıcı bilgilendirilir.
--> Şirket kayıtları iki şekilde doğrulanır. Kayıdın gerçekleşmesi için e-posta doğrulaması gerekir. HRMS personelinin (bizim :)) onayı gerekmektedir.
--> Daha önce kayıtlı bir e-posta var ise kayıt gerçekleşmez. Kullanıcı bilgilendirilir.
+Accept conditions:
 
-Req 3 : Sisteme genel iş pozisyonu isimleri eklenebilmelidir. Örneğin Software Developer, Software Architect.
+-> These positions cannot be repeated. The user is warned.
 
-Kabul Kriterleri:
+Req 4: Employers should be able to be listed. (Whole list only)
 
--> Bu pozisyonlar tekrar edemez. Kullanıcı uyarılır.
+Req 5 : Job seekers should be able to be listed. (Whole list only)
 
-Req 4 : İş verenler listelenebilmelidir. (Sadece tüm liste)
-
-Req 5 : İş arayanlar listelenebilmelidir. (Sadece tüm liste)
-
-Req 6 : İş pozisyonları listelenebilmelidir. (Sadece tüm liste)
+Req 6 : Job positions should be listed. (Whole list only)
