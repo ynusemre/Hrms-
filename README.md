@@ -1,5 +1,9 @@
 # Hrms- Recruitment System
 
+It is a Web Application implemented in Spring Boot where employers can publish their jobs, employees can see job postings and apply, and employees that works for application can manage operations within the application. I used PostgreSql as database. I did the database design and coding myself.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 IMPORTANT 1: Create fake services for authentication. For example, you don't really need to send mail.
 
 IMPORTANT 2: Do not code outside of the requirements. This is software developer behavior against Project management and ALM (Application LifeCycle Management) rules.
